@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +17,7 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+          <FontAwesomeIcon icon={faHeart} />
       </div>
       <h1>Vite + React + Marc</h1>
       <div className="card">
